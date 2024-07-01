@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #4dd0e1; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff; /* White text color */
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #26c6da;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff; /* White text color */
+}
+
+button#guessButton {
+    background-color: #00796b; /* Dark green background */
+}
+
+button#resetButton {
+    background-color: #d32f2f; /* Dark red background */
+}
+
+p#message {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff; /* White text color */
+}
+
+p#attempts {
+    font-size: 16px;
+    color: #ffffff; /* White text color */
+}
